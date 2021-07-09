@@ -1,0 +1,13 @@
+public class Exception2 extends Exception {
+	protected String msg;
+	public static int funcCube(int a) {
+		int b = a;
+		return b * b * b;
+	}
+	public Exception2(String msg) {
+		this.msg = msg;
+	}
+	public String getMsg() {
+		return msg;
+	}
+}
